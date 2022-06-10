@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 414px;
+}
+
+.topo{
+    background-color: #CF2B2B;
+    height: 120px;
+    width: 100%;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.topo h1{
+    font-size: 50px;
+    margin-left: 10px;
+    font-family: 'Righteous';
+}
+
+.topo h2{
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.conteudo{
+    background-color: #E5E5E5;
+    height: 1105px;
+    width: 100%;
+    position: absolute;
+}
+
+.categoria-comida{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Righteous';
+}
+
+.categoria-bebida{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Righteous';
+}
+
+.opcoes{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow: hidden;
+    height: 160px;
+    position: relative;
+}
+
+.opcao {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 130px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: space-around;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.opcao img{
+    margin-top: 5px;
+    border-radius: 10%;
+    width: 110px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.opcao span{
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: 'Roboto';
+    overflow: hidden;
+}
+
+.opcao p{
+    font-size: 14px;
+    font-style: 'Righteous';
+    font-weight: 300;
+    color: #A6A6A6;
+    overflow: hidden;
+}
+
+.final-pagina{
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finalizar-pedido{
+    background-color:  #CBCBCB;
+    width: 350px;
+    height: 55px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finalizar-pedido p{
+    color: #FFFFFF;
+    font-size: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    
+}
+
