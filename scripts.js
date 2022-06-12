@@ -1,4 +1,10 @@
-function selecionarPrato(this){
-    let selecionar = document.querySelector("opcao");
-    selecionar.classListadd("borda-verde");
+
+function selecionarPrato(elemento){
+    const selecionado = document.querySelector(".opcao");
+
+    if (selecionado !== null){
+        selecionado.classList.remove("borda-verde");
+    }
+
+    elemento.classlist.add("borda-verde");    
 }
