@@ -10,7 +10,7 @@ let nomeSobremesa;
 let valorTotal;
 
 function transformarNumero(preco){
-    preco = preco.replace("R$ ", "");
+    preco = preco.replace("R$ ", " ");
 
     preco = Number(preco) * 100;
     return preco;

@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: rebeccapurple;
 }
 
 .topo {
@@ -32,6 +31,7 @@ body {
 }
 
 .conteudo{
+    padding-top: 20px;
     margin-top: 100px;
     background-color: #E5E5E5;
     width: 100%;
@@ -142,8 +142,9 @@ body {
     font-family: 'Roboto';
 }
 
-.check{
+.opcao .pratos .borda-verde ion-icon{
     color: #32B72F;
+    display: initial;
 }
 
 .borda-verde{
